@@ -1,0 +1,33 @@
+[
+{
+  "name": "Target_Sum_Stub.Position",
+  "location": "target_sum_stub.ads:3:12",
+  "Object_Size": 32,
+  "Value_Size": 3,
+  "Alignment": 4
+}
+,
+{
+  "name": "Target_Sum_Stub.Value",
+  "location": "target_sum_stub.ads:4:12",
+  "Object_Size": 32,
+  "Value_Size": 4,
+  "Alignment": 4
+}
+,
+{
+  "name": "Target_Sum_Stub.Values",
+  "location": "target_sum_stub.ads:5:9",
+  "Size": 160,
+  "Alignment": 4,
+  "Component_Size": 32
+}
+,
+{
+  "name": "Target_Sum_Stub.Target",
+  "location": "target_sum_stub.ads:6:12",
+  "Object_Size": 32,
+  "Value_Size": 7,
+  "Alignment": 4
+}
+]

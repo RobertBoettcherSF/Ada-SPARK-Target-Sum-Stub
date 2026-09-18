@@ -1,0 +1,39 @@
+V "GNAT Lib v14"
+M P W=b
+A -gnatA
+A -gnatwa
+A -gnat2022
+A -gnata
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tests%b		tests.adb		b293e409 NE OO SU
+Z system.assertions%s	s-assert.adb		s-assert.ali
+W target_sum_stub%s	target_sum_stub.adb	target_sum_stub.ali
+
+D ada.ads		20240801081713 76789da1 ada%s
+D a-assert.ads		20240801081713 ba465f5c ada.assertions%s
+D a-unccon.ads		20240801081713 0e9b276f ada.unchecked_conversion%s
+D system.ads		20240801081714 14286b0f system%s
+D s-assert.ads		20240801081713 9c4520c7 system.assertions%s
+D s-exctab.ads		20240801081713 91bef6ef system.exception_table%s
+D s-stalib.ads		20240801081713 1c9580f6 system.standard_library%s
+D target_sum_stub.ads	20260918180816 73875d01 target_sum_stub%s
+D tests.adb		20260918180816 c114b908 tests%b
+G a e
+G c Z b b [tests standard 2 11 none]
+G r c none [tests standard 2 11 none] [exists target_sum_stub 7 13 none]
+X 8 target_sum_stub.ads
+2K9*Target_Sum_Stub 8e20 9|1w6 3r17 4r17 6r19 7r19 8r23
+4I12*Value{natural}
+5A9*Values(4I12)<integer> 9|3r33 4r33
+7V13*Exists{boolean} 9|6s35 7s35 8s39
+X 9 tests.adb
+2U11*Tests 2b11 9l5 9t10
+3a4 A{8|5A9} 6r43 8r47
+4a4 B{8|5A9} 7r43
+

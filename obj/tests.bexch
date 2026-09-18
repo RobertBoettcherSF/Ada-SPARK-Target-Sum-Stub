@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__tests.o
+[PROJECT FILES]
+/workspace/Ada-SPARK-Target-Sum-Stub/target_sum_stub.gpr
+20260918180816 e5752b118c8e3ad9cb42e6c0f6f5a264
+[BOUND OBJECT FILES]
+/workspace/Ada-SPARK-Target-Sum-Stub/obj/target_sum_stub.o
+/workspace/Ada-SPARK-Target-Sum-Stub/obj/tests.o
+[GENERATED SOURCE FILES]
+b__tests.ads
+b__tests.adb
+b__tests.ali
+[RESULTING OPTIONS]
+-L/workspace/Ada-SPARK-Target-Sum-Stub/obj/
+-L/workspace/Ada-SPARK-Target-Sum-Stub/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/14/adalib/
+-shared
+-lgnat-14
+-ldl

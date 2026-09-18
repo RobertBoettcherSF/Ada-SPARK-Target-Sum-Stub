@@ -1,0 +1,15 @@
+[
+{
+  "name": "Tests.A",
+  "location": "tests.adb:3:4",
+  "Size": 160,
+  "Alignment": 4
+}
+,
+{
+  "name": "Tests.B",
+  "location": "tests.adb:4:4",
+  "Size": 160,
+  "Alignment": 4
+}
+]

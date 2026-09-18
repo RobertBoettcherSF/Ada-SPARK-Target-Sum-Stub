@@ -1,0 +1,2 @@
+tests.adb:3:43: warning: array aggregate using () is an obsolescent syntax, use [] instead [-gnatwj]
+tests.adb:4:43: warning: array aggregate using () is an obsolescent syntax, use [] instead [-gnatwj]
